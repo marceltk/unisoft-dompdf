@@ -1,19 +1,19 @@
 {
-    "name": "dino/dompdf-module",
+    "name": "marceltk/unisoft-dompdf-module",
     "type": "library",
-    "description": "A Zend Framework 2 module for incorporating DOMPDF support.",
-    "keywords": ["pdf","dompdf", "zf2"],
-    "homepage": "http://raymondkolbe.com",
+    "description": "A Zend Framework 2 module for incorporating DOMPDF support. (Fork: Raymond Kolbe)",
+    "keywords": ["pdf","dompdf", "zf3", "zf2"],
+    "homepage": "http://unisoft.net.br",
     "license": "MIT",
     "authors": [
         {
-        "name": "Raymond Kolbe",
-        "email": "raymond.kolbe@maine.edu"
+        "name": "Marcel Candido",
+        "email": "phpmarcel@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.3.0",
-        "dompdf/dompdf": "0.6.*"
+        "dompdf/dompdf": "^0.6.*"
     },
     "autoload": {
         "psr-0": {
